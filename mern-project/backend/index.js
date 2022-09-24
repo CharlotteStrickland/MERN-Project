@@ -2,8 +2,11 @@ import express from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import cors from "cors";
+import airbnbRoutes from "./routes/airbnb.js";
 
 const app = express();
+
+app.use("/airbnb", airbnbRoutes);
 
 app.use(bodyParser.json({ limit: "20mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "20mb", extended: true }));
