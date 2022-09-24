@@ -1,9 +1,8 @@
 import express from "express";
+import { getAirbnb } from "../controllers/airbnb.js";
 
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.send("Router is working");
-});
+router.get("/", getAirbnb);
 
 export default router;
