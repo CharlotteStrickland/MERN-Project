@@ -1,13 +1,16 @@
 import "./App.css";
 import React from "react";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Header from './components/Header'
 
-function App() {
+
+
+
+function App(props) {
   return (
     <div className="App">
+      <Header />
       <header className="Header">
-        <h1>yo testing again</h1>
+        <h1>this is a test to see if it's working</h1>
       </header>
     </div>
   );
