@@ -2,9 +2,6 @@ import "./App.css";
 //import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from "react";
 import Header from './components/Header'
-import Search from './components/Search'
-
-
 
 function App() {
   return (
