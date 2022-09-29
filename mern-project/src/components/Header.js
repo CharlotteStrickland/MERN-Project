@@ -2,11 +2,13 @@ import React from 'react';
 import './Header.css';
 
 
+
+
 function Header() {
     return (
         <div className='header'>
                 <img className='header_logo'
-                src='https://www.flickr.com/gp/186598741@N08/6eer30c777' alt="airbnb logo" />
+                src="./mern-project/src/components/images/airbnb-logo.jpeg" alt="" />
         <div className='header_center'>
             
         </div>
